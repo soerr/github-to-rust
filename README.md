@@ -2,11 +2,11 @@
 
 # Rust Git Pterodactyl Egg Setup
 
-This README guide will walk you through the process of setting up the Unturned Git Pterodactyl egg with your own GitHub repository.
+This README guide will walk you through the process of setting up the Rust Git Pterodactyl egg with your own GitHub repository.
 
 ## Overview
 
-This egg provides an Rust dedicated server with GitHub repository sync capabilities. It allows you to manage multiple Unturned servers from a single private GitHub repository.
+This egg provides an Rust dedicated server with GitHub repository sync capabilities. It allows you to manage multiple Rust servers from a single private GitHub repository.
 
 ## Prerequisites
 
@@ -19,13 +19,13 @@ This egg provides an Rust dedicated server with GitHub repository sync capabilit
 ### 1. Create Your GitHub Repository
 
 1. Log in to your GitHub account
-2. Create a new private repository for your Unturned server files
+2. Create a new private repository for your Rust server files
 3. You don't need to initialize it with a README file
 
 ### 2. Structure Your Repository
 
 1. Clone your new repository to your local machine
-2. Create directories for each of your Unturned servers, for example:
+2. Create directories for each of your Rust servers, for example:
    ```
    /RustyRev1
    /RustyRev2
@@ -78,7 +78,7 @@ For more detailed instructions, refer to the [GitHub documentation on creating a
 
 ## Managing Multiple Servers
 
-- Create a new server in Pterodactyl for each Unturned server
+- Create a new server in Pterodactyl for each Rust server
 - Use the same repository URL and access token for all servers
 - Set a unique `REPOSITORY_DIR` for each server corresponding to its directory in your GitHub repository
 
