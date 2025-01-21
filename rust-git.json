@@ -199,6 +199,66 @@
             "user_editable": true,
             "rules": "nullable|url",
             "field_type": "text"
+        },
+        {
+            "name": "Repository Enabled",
+            "description": "Set on to enable repository sync",
+            "env_variable": "REPOSITORY_ENABLED",
+            "default_value": "0",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|boolean",
+            "field_type": "text"
+        },
+        {
+            "name": "Repository URL",
+            "description": "The URL to the Git repository that should be cloned for this server.",
+            "env_variable": "REPOSITORY_URL",
+            "default_value": "github.com/RestoreMonarchyPlugins/UnturnedGit.git",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:255",
+            "field_type": "text"
+        },
+        {
+            "name": "Repository Access Token",
+            "description": "The access token to use when cloning the repository. This is required for private repositories.",
+            "env_variable": "REPOSITORY_ACCESS_TOKEN",
+            "default_value": "",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:255",
+            "field_type": "text"
+        },
+        {
+            "name": "Branch",
+            "description": "The branch of the Git repository that should be used for this server.",
+            "env_variable": "REPOSITORY_BRANCH",
+            "default_value": "master",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:255",
+            "field_type": "text"
+        },
+        {
+            "name": "Repository Directory",
+            "description": "The folder inside the repository that should be used for this server. Leave empty to use the root of the repository.",
+            "env_variable": "REPOSITORY_DIR",
+            "default_value": "sample",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:255",
+            "field_type": "text"
+        },
+        {
+            "name": "Install Directory",
+            "description": "The directory where the server files should be installed.",
+            "env_variable": "INSTALL_DIR",
+            "default_value": "Servers/unturned",
+            "user_viewable": true,
+            "user_editable": false,
+            "rules": "required|string|max:255",
+            "field_type": "text"
         }
     ]
 }
