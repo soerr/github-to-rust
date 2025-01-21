@@ -1,0 +1,8 @@
+{
+	"Delete": [
+		"Oxide/plugins",
+		"Oxide/config",
+        "Oxide/lang/en"
+	]
+}
+
