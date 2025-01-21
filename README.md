@@ -6,7 +6,7 @@ This README guide will walk you through the process of setting up the Unturned G
 
 ## Overview
 
-This egg provides an Unturned dedicated server with GitHub repository sync capabilities. It allows you to manage multiple Unturned servers from a single private GitHub repository.
+This egg provides an Rust dedicated server with GitHub repository sync capabilities. It allows you to manage multiple Unturned servers from a single private GitHub repository.
 
 ## Prerequisites
 
