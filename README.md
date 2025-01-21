@@ -91,4 +91,5 @@ For more detailed instructions, refer to the [GitHub documentation on creating a
 ## Extra Information
 
 - You will need to upload both the plugin and the configuration or en file for it to sync properly. (The GitHub repository cannot retrieve files from the servers.)
-- The egg-config.json file will be deleted and replaced with the files from your GitHub repository. ### So make sure you make backup!
+- The egg-config.json file will delete the file directories and they will be replaced with the files from your GitHub repository. 
+### So make sure you make backup!
