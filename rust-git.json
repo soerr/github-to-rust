@@ -234,7 +234,7 @@
             "name": "Branch",
             "description": "The branch of the Git repository that should be used for this server.",
             "env_variable": "REPOSITORY_BRANCH",
-            "default_value": "master",
+            "default_value": "main",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:255",
