@@ -6,7 +6,7 @@
     },
     "exported_at": "2025-01-21T00:17:58+01:00",
     "name": "Rust Git",
-    "author": "So_er on discord",
+    "author": "endlesstime800@gmail.com",
     "description": "Rust dedicated server with GitHub repository sync.",
     "features": [
         "steam_disk_space"
