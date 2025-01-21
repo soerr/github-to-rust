@@ -1,4 +1,4 @@
-
+Thanks to [restoremonarchy](https://github.com/RestoreMonarchy) and [pterodactyl](http://github.com/pterodactyl) for the resources to make this!
 
 # Rust Git Pterodactyl Egg Setup
 
@@ -92,4 +92,4 @@ For more detailed instructions, refer to the [GitHub documentation on creating a
 
 - You will need to upload both the plugin and the configuration or en file for it to sync properly. (The GitHub repository cannot retrieve files from the servers.)
 - The egg-config.json file will delete the file directories and they will be replaced with the files from your GitHub repository. 
-### So make sure you make backup!
+### So make sure you make a backup!
