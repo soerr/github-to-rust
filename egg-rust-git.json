@@ -254,10 +254,10 @@
             "name": "Install Directory",
             "description": "The directory where the server files should be installed.",
             "env_variable": "INSTALL_DIR",
-            "default_value": "",
+            "default_value": "oxide",
             "user_viewable": true,
             "user_editable": false,
-            "rules": "nullable|string|max:255",
+            "rules": "required|string|max:255",
             "field_type": "text"
         }
     ]
