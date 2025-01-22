@@ -23,7 +23,7 @@ fi
 # check if REPOSITORY_DIR is set
 if [ -z "${REPOSITORY_DIR}" ]; then
     echo -e "${GREEN}REPOSITORY_DIR is not set, repository root will be used"
-    REPOSITORY_DIR="container"
+    REPOSITORY_DIR=""
 fi
 
 # check if REPOSITORY_ACCESS_TOKEN is set
