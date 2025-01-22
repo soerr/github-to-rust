@@ -34,7 +34,7 @@ fi
 # check if INSTALL_DIR is set
 if [ -z "${INSTALL_DIR}" ]; then
     echo -e "${GREEN}INSTALL_DIR is not set, defaulting to 'container'"
-    INSTALL_DIR=""
+    INSTALL_DIR="oxide"
 fi
 
 # remove temp dir if exists
